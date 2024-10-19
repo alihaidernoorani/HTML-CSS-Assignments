@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+           <img src="./images/logo.png" alt="logo" width="100px">
+           <nav>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+           </nav>
+    </header>
+    <main>
+        <form action="action=http://www.example.com/review.php" method="get">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label for="name">Name:</label>
+                <input id="name" type="text" /><br /> <br />
+                <label for="email">Email:</label>
+                <input id="email" type="email" />
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Your Review:</legend>
+                <p>
+                    <label for="hear-about">How did you hear about us?</label>
+                    <select name="reference" id="hear-about">
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="whatsapp">WhatsApp</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <p> Would you visit again?<br />
+                    <input id="yes" name="review" type="radio" /><label for="yes">Yes</label>
+                    <input id="no" name="review" type="radio" /><label for="no">No</label>
+                    <input id="maybe" name="review" type="radio" /><label for="maybe">Maybe</label>
+                </p>
+                <p>
+                    <label for="comment">Comments:</label><br>
+                    <textarea id="comment" rows="4" cols="40"></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" id="sign-up" /><label for="sign-up">Sign me up for email updates</label>
+                </p>
+                <input type="submit" value="Submit review"/>
+            </fieldset>
+        </form>
+        <iframe width="600" height="400" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1mqiCPqnH4lnU-sz4RqPRff2VYJUE!2m3!1f0!2m2!7f140.4224217!8s0x3eb33e75a28531d1:0x412558657f5ff4a8!3m3!1m2!1s0x3eb33e75a28531d1!2sGovernor+House+Sindh!4m3!3m2!1d67.0259807!2d24.8508406!5e0!3m2!1sen!2"></iframe>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2019. All rights reserved </p>
+    </footer>
+</body>
+</html>

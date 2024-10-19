@@ -1,0 +1,95 @@
+/* Table wrapper to make it scrollable on smaller screens */
+#table-container {
+    overflow-x: auto;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the table */
+}
+
+td {
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Heading centering */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Color classes */
+#hydrogen {
+    background-color: #ff7f50;
+}
+
+.noble-gases {
+    background-color: #6495ed;
+}
+
+.alkali-metals {
+    background-color: #da70d6;
+}
+
+.rare-earth {
+    background-color: #7b68ee;
+}
+
+.transition-metals {
+    background-color: #ffd700;
+}
+
+.metalloids {
+    background-color: #a0522d;
+}
+
+.group-seven {
+    background-color: #daa520;
+}
+
+.post-transition-metals {
+    background-color: #2e8b57;
+}
+
+.reactive-non-metals {
+    background-color: #fa8072;
+}
+
+.radioactive {
+    background-color: #ffb6c1;
+}
+
+.last-elements {
+    background-color: rgb(216, 216, 216);
+}
+
+/* Responsive media queries */
+@media (max-width: 1024px) {
+    td {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    td {
+        padding: 5px;
+        font-size: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%; 
+        font-size: 8px; 
+    }
+
+    td {
+        padding: 3px; 
+    }
+}
